@@ -6,11 +6,15 @@ def main():
   age_str = input('Type your age: ')
   age = int(age_str)
 
-  if (age >= 18):
+  legal_age = age >= 18
+  child     = age < 12
+  teenager  = age >= 12
+
+  if (legal_age):
     print('You are of legal age.')
   else:
-    if (age < 12):
+    if (child):
       print('You are a child.')
-    elif (age >= 12):
+    elif (teenager):
       print('You are a teenager')
 main()
