@@ -8,12 +8,16 @@ kick_str = input("Type your number: ")
 print("You type: ", kick_str)
 kick = int(kick_str)
 
-if (secret_number == kick):
+goal = kick == secret_number
+bigger = kick < secret_number
+smaller = kick > secret_number
+
+if (goal):
 	print("You Win!!! :)")
 else:
-    if (kick < secret_number):
+    if (bigger):
         print("you Lose, the secret number is bigger. ;)")
-    elif (kick > secret_number):
+    elif (smaller):
         print("you Lose, the secret number is smaller. ;)")
 
 print('{:=^50}'.format("> Game over <"))
