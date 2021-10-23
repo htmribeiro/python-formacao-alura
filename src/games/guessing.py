@@ -11,6 +11,9 @@ kick = int(kick_str)
 if (secret_number == kick):
 	print("You Win!!! :)")
 else:
-	print("you Lose, who knows the next time. ;)")
+    if (kick < secret_number):
+        print("you Lose, the secret number is bigger. ;)")
+    elif (kick > secret_number):
+        print("you Lose, the secret number is smaller. ;)")
 
 print('{:=^50}'.format("> Game over <"))
