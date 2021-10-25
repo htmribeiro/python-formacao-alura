@@ -6,7 +6,7 @@ secret_number = 42
 total_shots = 3
 rounds = 1
 
-while(rounds <= total_shots):
+for rounds in range(1, total_shots + 1):
     print("Tentativa {} de {}".format(rounds, total_shots))
     kick_str = input("Type a number between 1 and 100: ")
     print("You type: ", kick_str)
@@ -29,6 +29,4 @@ while(rounds <= total_shots):
         elif (smaller):
             print("you Lose, the secret number is smaller. ;)")
     
-    rounds = rounds + 1
-
 print('{:=^50}'.format("> Game over <"))
