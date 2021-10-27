@@ -4,4 +4,4 @@ lesson05 08 - Mão na massa: Usando for
 
 lesson06 06 - O grande sorteio.
 
-lesson07 05 - Adicionando níveis ao jogo
+lesson07 05 - Mão na massa: Níveis e Pontuação
