@@ -1,8 +1,10 @@
+import random
+
 print("*"*30)
 print("Welcome to the Guessing Game!")
 print("*"*30)
 
-secret_number = 42
+secret_number = random.randrange(1, 101)
 total_shots = 3
 rounds = 1
 
