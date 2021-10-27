@@ -1,3 +1,5 @@
 lesson05 04 - Encerrando a interação e o loop.
 
 lesson05 08 - Mão na massa: Usando for
+
+lesson06 06 - O grande sorteio.
