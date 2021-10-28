@@ -9,7 +9,7 @@ total_shots = 0
 rounds = 1
 points = 1000
 lost_points = 0
-print(secret_number)
+
 print("(1) Easy (2) Moderate (3) Hard")
 level = int(input("Define your level: "))
 
