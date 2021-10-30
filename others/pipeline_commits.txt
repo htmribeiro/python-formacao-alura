@@ -1,3 +1,5 @@
+>>> Python 3 parte 1
+
 lesson05 04 - Encerrando a interação e o loop.
 
 lesson05 08 - Mão na massa: Usando for
@@ -15,3 +17,9 @@ lesson08 Rearranging files
 lesson08 04 - Importação de módulo
 
 lesson08 08 - Mão na massa: Modularizando o jogo
+
+>>> Python 3 parte 2
+
+lesson01 05 - Game Loop
+
+lesson01 09 - Mãos na massa

@@ -4,10 +4,10 @@ def play():
   print("{}".format("*"*50))
 
   secret_word = "banana"
-  rigth = False
+  right = False
   gallows = False
 
-  while(not rigth and not gallows):
+  while(not right and not gallows):
     print("Playing...")
 
   print("{:*^50}".format('<<<  Game Over  >>>'))
