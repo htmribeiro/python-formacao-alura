@@ -4,7 +4,7 @@ def play():
   print("{}".format("*"*50))
 
   secret_word = "banana"
-  letter_right = ['-', '-', '-', '-', '-', '-']
+  letter_right = ['_', '_', '_', '_', '_', '_']
 
   right = False
   gallows = False
@@ -22,6 +22,8 @@ def play():
       index += 1
 
     print(letter_right)
+    letter_left = letter_right.count('_')
+    print('Still left to hit {} letters.'.format(letter_left))
     print("Playing...")
 
   print("{:*^50}".format('<<<  Game Over  >>>'))
