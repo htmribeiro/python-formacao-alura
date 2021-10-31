@@ -23,3 +23,9 @@ lesson08 08 - Mão na massa: Modularizando o jogo
 lesson01 05 - Game Loop
 
 lesson01 09 - Mãos na massa
+
+lesson02 01 - Encontrando letras
+
+lesson02 05 - Funções importantes da String
+
+lesson02 07 - Mão na massa
