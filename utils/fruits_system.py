@@ -1,9 +1,9 @@
 # coding:utf-8
-frutas = ['Banana', 'Maca', 'Pera', 'Uva', 'Melancia', 'Jamelao']
+frutas = ['banana', 'maçã', 'pêra', 'uva', 'melancia', 'jamelão']
 
-fruta_pedida = input('Qual é a fruta que deseja consultar? ').strip()
+fruta_pedida = input('Qual é a fruta que deseja consultar? ').strip().lower()
 
-if(fruta_pedida.capitalize() in frutas):
-  print('Sim, temos a fruta.')
+if(fruta_pedida in frutas):
+  print('Sim, temos {} em nossa lista de frutas. [Item: {}]'.format(fruta_pedida.capitalize(), frutas.index(fruta_pedida)))
 else:
-  print('Não temos a fruta.')
+  print('Desculpe, a {} não está na lista de frutas.'.format(fruta_pedida.capitalize()))
