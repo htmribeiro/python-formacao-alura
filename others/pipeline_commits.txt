@@ -31,3 +31,7 @@ lesson02 05 - Funções importantes da String
 lesson02 07 - Mão na massa
 
 lesson03 02 - Sistema para as frutas
+
+lesson03 06 - Guardando as letras acertadas
+
+lesson03 07 - Mãos na massa
