@@ -9,10 +9,11 @@ def play():
 
   while(not right and not gallows):
     kick = input("Type a letter: ")
+    kick = kick.strip()
 
     index = 0
     for letter in secret_word:
-      if(kick == letter):
+      if(kick.upper() == letter.upper()):
         print("The letter '{}' is in position {}".format(letter, index))
       index += 1
 
