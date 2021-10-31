@@ -5,11 +5,12 @@ def play():
 
   secret_word = "banana"
   letter_right = ['-', '-', '-', '-', '-', '-']
-  print(letter_right)
 
   right = False
   gallows = False
 
+  print(letter_right)
+  
   while(not right and not gallows):
     kick = input("Type a letter: ")
     kick = kick.strip()
