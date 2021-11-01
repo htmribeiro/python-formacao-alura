@@ -3,28 +3,44 @@ def play():
   print('{:*^50}'.format(' >>>  Welcome To The Gallows Game!  <<< '))
   print("{}".format("*"*50))
 
-  secret_word = "banana"
+  secret_word = "banana".upper()
   letter_right = ['_', '_', '_', '_', '_', '_']
 
   right = False
   gallows = False
+  missed = 0
 
   print(letter_right)
   
   while(not right and not gallows):
     kick = input("Type a letter: ")
-    kick = kick.strip()
+    kick = kick.strip().upper()
 
-    index = 0
-    for letter in secret_word:
-      if(kick.upper() == letter.upper()):
-        letter_right[index] = letter
-      index += 1
+    if(kick in secret_word):
+      index = 0
+      for letter in secret_word:
+        if(kick == letter):
+          letter_right[index] = letter
+        index += 1
+
+      letter_left = letter_right.count('_')  # Hamilton
+      print('Still left to hit {} letters.'.format(letter_left))  # Hamilton
+
+      if(letter_left != 0):  # Hamilton
+        print("Playing...")
+    else:
+      missed += 1
+
+    gallows = missed == 6
+    right = '_' not in letter_right
+    
 
     print(letter_right)
-    letter_left = letter_right.count('_')
-    print('Still left to hit {} letters.'.format(letter_left))
-    print("Playing...")
+
+  if(right):
+    print("YOU WIN! :) CONGRATULATION")
+  else:
+    print("YOU LOSE! :( SORRY")
 
   print("{:*^50}".format('<<<  Game Over  >>>'))
 
