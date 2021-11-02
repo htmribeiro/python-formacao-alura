@@ -8,7 +8,7 @@ def play():
 
   right = False
   gallows = False
-  missed = 0
+  missed = 6
 
   print(letter_right)
   
@@ -29,18 +29,20 @@ def play():
       if(letter_left != 0):  # Hamilton
         print("Playing...")
     else:
-      missed += 1
+      missed -= 1
+      # Hamilton - implementar aviso de quantas tentativas faltam
+      print("{} attempts remain.".format(missed))
 
-    gallows = missed == 6
+    gallows = missed == 0
     right = '_' not in letter_right
     
 
     print(letter_right)
 
   if(right):
-    print("YOU WIN! :) CONGRATULATION")
+    print("YOU WIN :) CONGRATULATION!")
   else:
-    print("YOU LOSE! :( SORRY")
+    print("YOU LOSE :( SORRY!")
 
   print("{:*^50}".format('<<<  Game Over  >>>'))
 
