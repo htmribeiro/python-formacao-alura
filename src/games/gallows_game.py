@@ -29,13 +29,11 @@ def play():
       if(letter_left != 0):  # Hamilton
         print("Playing...")
     else:
-      missed -= 1
-      # Hamilton - implementar aviso de quantas tentativas faltam
-      print("{} attempts remain.".format(missed))
+      missed -= 1 # Hamilton
+      print("{} attempts remain.".format(missed))  # Hamilton
 
     gallows = missed == 0
     right = '_' not in letter_right
-    
 
     print(letter_right)
 

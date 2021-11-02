@@ -1,4 +1,10 @@
-# Python 3 parte 1: Aula 6
+"""
+Python 3
+parte 1
+Aula 6
+Atividade
+Titulo
+"""
 
 import random
 
