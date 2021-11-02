@@ -4,11 +4,11 @@ def play():
   print("{}".format("*"*50))
 
   secret_word = "banana".upper()
-  letter_right = ['_', '_', '_', '_', '_', '_']
+  letter_right = ['_' for letter in secret_word]
 
   right = False
   gallows = False
-  missed = 6
+  missed = len(secret_word)
 
   print(letter_right)
   
