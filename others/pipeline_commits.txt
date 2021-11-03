@@ -36,4 +36,18 @@ lesson03 06 - Guardando as letras acertadas
 
 lesson03 07 - Mãos na massa
 
-lesson03 8 - Outros recursos com a lista
+lesson03 08 - Outros recursos com a lista
+
+lesson05 01 - Estipulando tentativas de erros
+
+lesson05 02 - Calculando o total de caracteres em um loop
+
+lesson05 05 - Opcional: quantas tentativas faltam?
+
+lesson05 06 - Outra maneira de sair do loop
+
+lesson05 07 - Compreensão de lista
+
+lesson05 10 - Inicializando uma lista de números pares
+
+lesson05 11 - Mãos na massa: encerrando o jogo
