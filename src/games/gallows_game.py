@@ -1,9 +1,21 @@
+from random import randrange
+
 def play():
 	print("{}".format("*"*50))
 	print('{:*^50}'.format(' >>>  Welcome To The Gallows Game!  <<< '))
 	print("{}".format("*"*50))
 
-	secret_word = "banana".upper()
+	file = open("others\words.txt", "r")
+	words = []
+
+	for line in file:
+  		line = line.strip()
+  		words.append(line)
+
+	file.close()
+
+	number = randrange(0, len(words))
+	secret_word = words[number].upper()
 	letter_right = ['_' for letter in secret_word]
 
 	right = False
@@ -24,24 +36,27 @@ def play():
 				index += 1
 
 			letter_left = letter_right.count('_')  # Hamilton
-			print('Still left to hit {} letters.'.format(letter_left))  # Hamilton
+			print(letter_right)
+			print('Still left to hit {} letters.\n'.format(letter_left))  # Hamilton
 
 			if(letter_left != 0):  # Hamilton
-				print("Playing...")
+				print("Playing...\n")
 		else:
 			missed -= 1 # Hamilton
-			print("{} attempts remain.".format(missed))  # Hamilton
+			print(letter_right)
+			print("{} attempts remain.\n".format(missed))  # Hamilton
 
 		gallows = missed == 0
 		right = '_' not in letter_right
 
-		print(letter_right)
+		# print(letter_right) # Mudar de posição para dentro do for letra in secret_word
 
 	if(right):
 		print("YOU WIN :) CONGRATULATION!")
 	else:
 		print("YOU LOSE :( SORRY!")
 
+	print()
 	print("{:*^50}".format('<<<  Game Over  >>>'))
 
 if (__name__ == "__main__"):
