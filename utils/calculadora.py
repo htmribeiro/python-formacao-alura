@@ -6,15 +6,31 @@ Atividade 04
 Sintaxe das funções
 """
 def calculadora():
-  primeiro_numero = float(input("Digite: ").strip())
-  segundo_numero = float(input("Digite: ").strip())
-  print("Digite o símbolo da operação desejada?")
-  print("(+) | (-) | (*) | (/)")
-  operador = input("")
+  while(True):
+    primeiro_numero = float(input("Digite: ").strip())
+    segundo_numero = float(input("Digite: ").strip())
+    print("Digite o símbolo da operação desejada?")
+    print("(+) | (-) | (*) | (/)")
+    
+    operador = input("").strip().upper()
 
-  """ Implementar chamada das funções """
-  if(operador == "+"):
-    soma(primeiro_numero, segundo_numero)
+    """ Implementar chamada das funções """
+    if(operador == "+"):
+      soma(primeiro_numero, segundo_numero)
+    
+    elif(operador == "-"):
+      subtrai(primeiro_numero, segundo_numero)
+      
+    elif(operador == "*"):
+      multiplica(primeiro_numero, segundo_numero)
+    
+    elif(operador == "/"):
+      divide(primeiro_numero, segundo_numero)
+  
+    print()
+    entrada = input("(S) para SAIR.\n").strip().upper()
+    if (entrada == "S"):
+      break
 
 """ Declaração das funções """
 def soma(primeiro_numero, segundo_numero):
