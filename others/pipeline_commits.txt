@@ -51,3 +51,7 @@ lesson05 07 - Compreensão de lista
 lesson05 10 - Inicializando uma lista de números pares
 
 lesson05 11 - Mãos na massa: encerrando o jogo
+
+lesson06 08 - Escolhendo uma palavra
+
+lesson06 10 - Mãos na massa: Palavras aleatórias no jogo
