@@ -55,3 +55,11 @@ lesson05 11 - Mãos na massa: encerrando o jogo
 lesson06 08 - Escolhendo uma palavra
 
 lesson06 10 - Mãos na massa: Palavras aleatórias no jogo
+
+lesson07 01 - Organizando o código em funções
+
+lesson07 04 - Sintaxe das funções
+
+lesson07 05 Melhorando a apresentação do forca
+
+lesson07 09 - Parâmetros opcionais e nomeados
