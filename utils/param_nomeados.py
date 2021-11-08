@@ -1,6 +1,6 @@
 import random
 
-def carrega_palavra_secreta(nome_arquivo="others\\words.txt"
+def carrega_palavra_secreta(nome_arquivo="others/words.txt"
                             , primeira_linha_valida=0):
     arquivo = open(nome_arquivo, "r", encoding="utf-8")
     
@@ -18,4 +18,4 @@ def carrega_palavra_secreta(nome_arquivo="others\\words.txt"
     print(palavra_secreta)
 
 if(__name__ == '__main__'):
-  carrega_palavra_secreta("others\\fruits.txt")
+  carrega_palavra_secreta("others/fruits.txt")
