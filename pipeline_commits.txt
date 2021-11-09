@@ -66,4 +66,6 @@ lesson07 09 - Parâmetros opcionais e nomeados
 
 >>> Python 3 Introdução OO
 
-lesson01
+lesson01 02 - Dados da conta
+
+lesson01 03 - Dados e comportamento
