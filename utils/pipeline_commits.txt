@@ -75,3 +75,5 @@ lesson02 01 - Classe e Objeto
 lesson02 03 - Construtor
 
 lesson02 06 - Para saber mais: construtores com valores padrão
+
+lesson02 08 - Mãos na massa: Criando a classe Conta
