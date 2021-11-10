@@ -63,3 +63,17 @@ lesson07 04 - Sintaxe das funções
 lesson07 05 Melhorando a apresentação do forca
 
 lesson07 09 - Parâmetros opcionais e nomeados
+
+>>> Python 3 OO intro
+
+lesson01 02 - Dados da conta
+
+lesson01 07 - Mãos na massa: Primeiros passos do projeto
+
+lesson02 01 - Classe e Objeto
+
+lesson02 03 - Construtor
+
+lesson02 06 - Para saber mais: construtores com valores padrão
+
+lesson02 08 - Mãos na massa: Criando a classe Conta
