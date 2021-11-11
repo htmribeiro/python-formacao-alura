@@ -83,3 +83,5 @@ lesson03 01 - Usando métodos
 lesson03 02 - O problema de Chalita
 
 lesson03 03 - Melhoria necessária
+
+lesson03 07 - Especificando uma classe
