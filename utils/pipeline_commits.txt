@@ -91,3 +91,5 @@ lesson03 07 - Especificando uma classe
 lesson03 09 - Desafio Opcional
 
 lesson04 01 - Atributos privados
+
+lesson04 03 - A classe Retangulo e encapsulamento
