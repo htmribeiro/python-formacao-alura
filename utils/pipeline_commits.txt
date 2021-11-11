@@ -68,6 +68,8 @@ lesson07 09 - Parâmetros opcionais e nomeados
 
 lesson01 02 - Dados da conta
 
+lesson01 03 - Dados e comportamento
+
 lesson01 07 - Mãos na massa: Primeiros passos do projeto
 
 lesson02 01 - Classe e Objeto
@@ -77,3 +79,13 @@ lesson02 03 - Construtor
 lesson02 06 - Para saber mais: construtores com valores padrão
 
 lesson02 08 - Mãos na massa: Criando a classe Conta
+
+lesson03 01 - Usando métodos
+
+lesson03 02 - O problema de Chalita
+
+lesson03 03 - Melhoria necessária
+
+lesson03 07 - Especificando uma classe
+
+lesson03 09 - Desafio Opcional
