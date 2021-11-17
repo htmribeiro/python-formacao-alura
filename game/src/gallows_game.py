@@ -28,9 +28,7 @@ def play():
 
 		if(missed > 0):
 			draw_gallows(missed)
-			# -aqui- Criar uma lista das letras missed e apresentar a cada rodada
-			print("Lista de chutes errados: {}".format(wrong))			
-			# print("wrong letters\n")
+			print("Lista de chutes errados: {}".format(wrong))
 		
 	if(right):
 		game_winner()
@@ -79,18 +77,17 @@ def hit_kick(secret_word, kick, correct_letters):
 			correct_letters[index] = letter
 		index += 1
 	
-	letter_left = correct_letters.count('_')  # Hamilton
+	letter_left = correct_letters.count('_')
 	print(correct_letters)
-	print('Still left to hit {} letters.\n'.format(letter_left))  # Hamilton
+	print('Still left to hit {} letters.\n'.format(letter_left))
 
 	if(letter_left != 0):
-		print("Playing...\n") # Hamilton
+		print("Playing...\n")
 
 """ Function that keeps the wrong kicks """
 def wrong_kick(kick, incorrect_letters):
 	incorrect_letters.append(kick)
 	return incorrect_letters
-	# print(wrong)
 
 """ Function that prints the game's winner and loser messages """
 def game_winner():
