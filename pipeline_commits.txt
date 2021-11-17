@@ -99,3 +99,5 @@ lesson04 04 - Encapsulamento
 lesson05 01 - Getters e Setters
 
 lesson05 04 - Propriedades
+
+lesson05 08 - Mãos na massa: Criando propriedades
