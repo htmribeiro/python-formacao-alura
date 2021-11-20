@@ -1,4 +1,5 @@
 # coding:utf-8
+
 frutas = ['banana', 'maçã', 'pêra', 'uva', 'melancia', 'jamelão']
 
 fruta_pedida = input('Qual é a fruta que deseja consultar? ').strip().lower()

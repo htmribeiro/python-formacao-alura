@@ -5,7 +5,6 @@ Aula 6
 Atividade
 Titulo
 """
-
 import random
 
 sortited = random.randrange(0, 4)

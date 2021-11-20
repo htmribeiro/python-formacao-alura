@@ -5,11 +5,7 @@ def carrega_palavra_secreta(nome_arquivo="others/words.txt"
     arquivo = open(nome_arquivo, "r", encoding="utf-8")
     
     palavras = [linha.strip() for linha in arquivo]
-    
-    # for linha in arquivo:
-    #   linha = linha.strip()
-    #   palavras.append(linha)
-      
+          
     arquivo.close()
 
     numero = random.randrange(primeira_linha_valida, len(palavras))
