@@ -53,7 +53,6 @@ class Conta:
     @limite.setter
     def limite(self, limite):
         self.__limite = limite
-<<<<<<< HEAD
 
     @staticmethod
     def codigo_banco():
@@ -62,5 +61,3 @@ class Conta:
     @staticmethod
     def codigos_bancos():
         return {'BB': '001', 'Caixa': '104', 'Bradesco': '237'}
-=======
->>>>>>> Revert "lesson06 11 - Para saber mais: Atributos estáticos"
