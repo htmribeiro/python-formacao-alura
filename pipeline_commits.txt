@@ -103,3 +103,5 @@ lesson05 04 - Propriedades
 lesson05 08 - Mãos na massa: Criando propriedades
 
 lesson06 02 - O desenvolvedor inspirado
+
+lesson06 11 - Para saber mais: Atributos estáticos
