@@ -1,3 +1,4 @@
+""" Here Filme class """
 class Filme:
     def __init__(self, nome, ano, duracao):
         self.__nome = nome.title()
@@ -19,7 +20,8 @@ class Filme:
     @nome.setter
     def nome(self, novo_nome):
         self.__nome = novo_nome
-        
+
+""" Here Serie class """        
 class Serie:
     def __init__(self, nome, ano, temporadas):
         self.__nome = nome

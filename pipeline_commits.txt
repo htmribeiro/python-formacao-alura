@@ -103,3 +103,7 @@ lesson05 04 - Propriedades
 lesson05 08 - Mãos na massa: Criando propriedades
 
 lesson06 02 - O desenvolvedor inspirado
+
+>>> Python 3 OO Avançado
+
+lesson01 09 - Mãos na massa
