@@ -1,53 +1,48 @@
-""" Here Filme class """
-class Filme:
-    def __init__(self, nome, ano, duracao):
-        self.__nome = nome.title()
+""" Here Program superclass """
+class Programa:
+    def __init__(self, nome, ano):
+        self._nome = nome.title()
         self.ano = ano
-        self.duracao = duracao
-        self.__likes = 0
-        
+        self._like = 0
+    
     @property
-    def likes(self):
-        return self.__likes
+    def like(self):
+        return self._like
     
     def dar_likes(self):
-        self.__likes += 1
+        self._like += 1
         
     @property
     def nome(self):
-        return self.__nome
-    
-    @nome.setter
-    def nome(self, novo_nome):
-        self.__nome = novo_nome
-
-""" Here Serie class """        
-class Serie:
-    def __init__(self, nome, ano, temporadas):
-        self.__nome = nome
-        self.ano = ano
-        self.temporadas = temporadas
-        self.__likes = 0
-        
-    @property
-    def likes(self):
-        return self.__likes
-    
-    def dar_likes(self):
-        self.__likes += 1
-    
-    @property
-    def nome(self):
-        return self.__nome
+        return self._nome
     
     @nome.setter
     def nome(self, nome):
-        self.__nome = nome
+        self._nome = nome
+
+""" Here Filme class """
+class Filme(Programa):
+    def __init__(self, nome, ano, duracao):
+        super().__init__(nome, ano)
+        self.duracao = duracao
+        
+""" Here Serie class """        
+class Serie:
+    def __init__(self, nome, ano, temporadas):
+        super().__init__(nome, ano)
+        self.temporadas = temporadas
 
 
 vingadores = Filme('vingadores - guerra infinita', 2018, 160)
-print(vingadores.nome)
-
 atlanta = Serie('atlanta', 2018, 2)
-print(f'Nome: {atlanta.nome} - Ano: {atlanta.ano}')
+
+vingadores.dar_likes()
+vingadores.dar_likes()
+vingadores.dar_likes()
+
+atlanta.dar_likes()
+atlanta.dar_likes()
+
+print(f'Nome: {vingadores.nome} - Likes: {vingadores.likes}')
+print(f'Nome: {atlanta.nome} - Likes: {atlanta.likes}')
         
