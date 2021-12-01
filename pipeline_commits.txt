@@ -115,3 +115,5 @@ lesson03 02 - Polimorfismo
 lesson03 04 - Reduzindo ifs
 
 lesson03 06 - Representação textual de objetos
+
+lesson03 09 - Mãos na massa
