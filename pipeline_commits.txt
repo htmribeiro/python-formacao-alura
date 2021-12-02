@@ -117,3 +117,7 @@ lesson03 04 - Reduzindo ifs
 lesson03 06 - Representação textual de objetos
 
 lesson03 09 - Mãos na massa
+
+lesson04 04 - Reaproveitando um list
+
+
