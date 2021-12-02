@@ -120,4 +120,4 @@ lesson03 09 - Mãos na massa
 
 lesson04 04 - Reaproveitando um list
 
-
+lesson04 06 - Fugindo da complexidade

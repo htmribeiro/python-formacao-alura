@@ -42,10 +42,18 @@ class Serie(Programa):
         return f'{self._nome} - {self.ano} - {self.temporadas} temporadas - {self._likes} Likes'
 
 """ Here Playlist class """
-class Playlist(list):
+class Playlist:
     def __init__(self, nome, programas):
         self.nome = nome
-        super().__init__(programas)
+        self._programas = programas
+        
+    @property
+    def listagem(self):
+        return self._programas
+    
+    @property
+    def tamanho(self):
+        return len(self._programas)
 
 """ New objects """
 vingadores  = Filme('vingadores - guerra infinita', 2018, 160)
@@ -70,7 +78,10 @@ listinha = [vingadores, atlanta, demolidor, tmep]
 playlist_fim_de_semana = Playlist('fim de semana', listinha)
 
 """ Outputs """
-print(f'Playlist: {playlist_fim_de_semana.nome.title()} | {len(playlist_fim_de_semana)} programas.')
+print(f'Playlist: {playlist_fim_de_semana.nome.title()} | {len(playlist_fim_de_semana.listagem)} programas.')
+print()
+print(f'{demolidor.nome} Tá na playlist?\n{"Sim" if demolidor in playlist_fim_de_semana.listagem else "Não"}')
+print()
 
-for programa in playlist_fim_de_semana:
+for programa in playlist_fim_de_semana.listagem:
     print(programa)
