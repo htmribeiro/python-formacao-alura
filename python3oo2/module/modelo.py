@@ -54,8 +54,7 @@ class Playlist:
     def listagem(self):
         return self._programas
     
-    @property
-    def tamanho(self):
+    def __len__(self):
         return len(self._programas)
 
 """ New objects """
@@ -81,7 +80,8 @@ listinha = [vingadores, atlanta, demolidor, tmep]
 playlist_fim_de_semana = Playlist('fim de semana', listinha)
 
 """ Outputs """
-print(f'Playlist: {playlist_fim_de_semana.nome.title()} | {len(playlist_fim_de_semana.listagem)} programas.')
+print()
+print(f'Playlist {playlist_fim_de_semana.nome.title()} | {len(playlist_fim_de_semana)} programas.')
 print()
 print(f'{demolidor.nome} Tá na playlist?\n{"Sim" if demolidor in playlist_fim_de_semana else "Não"}')
 print()

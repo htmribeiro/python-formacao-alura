@@ -123,3 +123,5 @@ lesson04 04 - Reaproveitando um list
 lesson04 06 - Fugindo da complexidade
 
 lesson05 02 - Se anda como um pato...
+
+lesson05 05 - Modelo de dados Python
