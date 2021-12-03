@@ -127,3 +127,5 @@ lesson05 02 - Se anda como um pato...
 lesson05 05 - Modelo de dados Python
 
 lesson05 08 - Analisando Duck Typing
+
+lesson05 11 - Para saber mais: Criando ABC

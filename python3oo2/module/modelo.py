@@ -1,9 +1,15 @@
+from abc import ABCMeta, abstractmethod
+
 """ Here Program superclass """
-class Programa:
+class Programa(metaclass = ABCMeta):
     def __init__(self, nome, ano):
         self._nome = nome.title()
         self.ano = ano
         self._likes = 0
+    
+    @abstractmethod
+    def __str__(self):
+        pass
     
     @property
     def likes(self):
