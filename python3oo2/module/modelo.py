@@ -47,6 +47,9 @@ class Playlist:
         self.nome = nome
         self._programas = programas
         
+    def __getitem__(self, item):
+        return self._programas[item]
+    
     @property
     def listagem(self):
         return self._programas
@@ -80,8 +83,10 @@ playlist_fim_de_semana = Playlist('fim de semana', listinha)
 """ Outputs """
 print(f'Playlist: {playlist_fim_de_semana.nome.title()} | {len(playlist_fim_de_semana.listagem)} programas.')
 print()
-print(f'{demolidor.nome} Tá na playlist?\n{"Sim" if demolidor in playlist_fim_de_semana.listagem else "Não"}')
+print(f'{demolidor.nome} Tá na playlist?\n{"Sim" if demolidor in playlist_fim_de_semana else "Não"}')
 print()
-
+print(f'1º - {playlist_fim_de_semana[0]}')
+print()
+print("{:*^50}".format(" Programação Completa ")) # obter o número de caractere da maior variável e substituir no valor fixo (50)
 for programa in playlist_fim_de_semana.listagem:
     print(programa)
