@@ -137,3 +137,5 @@ lesson06 02 - Mais de uma classe mãe
 lesson06 04 - Resolução de métodos
 
 lesson06 05 - Mixins
+
+lesson06 07 - Mãos na massa

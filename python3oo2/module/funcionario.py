@@ -29,7 +29,7 @@ class Hipster:
 class Junior(Alura):
     pass
 
-class Pleno(Alura, Caelum):
+class Pleno(Alura, Caelum, Hipster):
     pass
 
 class Senior(Alura, Caelum, Hipster):
