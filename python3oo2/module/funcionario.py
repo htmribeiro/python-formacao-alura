@@ -13,8 +13,8 @@ class Caelum(Funcionario):
         print(f'Mostrando cursos- {mes}' if mes else 'Mostrar cursos desse mês')
 
 class Alura(Funcionario):
-    def mostrar_tarefas(self):
-        print('Fez muita coisa, Alurete!')
+    # def mostrar_tarefas(self):
+    #     print('Fez muita coisa, Alurete!')
         
     def buscar_perguntas_sem_resposta(self):
         print('Mostrando perguntas não respondidas do fórum')
@@ -27,6 +27,7 @@ class Pleno(Alura, Caelum):
 
 jose = Junior()
 jose.buscar_perguntas_sem_resposta()
+jose.mostrar_tarefas()
 
 luan = Pleno()
 luan.buscar_perguntas_sem_resposta()
