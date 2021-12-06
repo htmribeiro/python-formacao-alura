@@ -131,3 +131,5 @@ lesson05 08 - Analisando Duck Typing
 lesson05 11 - Para saber mais: Criando ABC
 
 lesson05 12 - Mão na massa
+
+lesson06 02 - Mais de uma classe mãe
